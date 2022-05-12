@@ -30,14 +30,11 @@ p {
   margin-bottom: 0;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  color: rgb(153, 153, 153);
-  transition: color ease .4s;
+.head {
+  text-align: center;
+  padding: 25px 0 20px;
+  font-weight: bold;
+  color: var(--theme-color);
 }
 
 /* header widget */
@@ -133,19 +130,21 @@ header .definition .details .info_details .self_info span.greet::after {
 
 header .definition .details .info_details .self_info h2 {
   margin: 0 0 2px;
-  /* position: relative; */
 }
-
-/* header .definition .details .info_details .self_info span.my_job {
-  margin-bottom: 10px;
-} */
-
-
 
 header .definition .details .info_details .self_info span.name {
   color: var(--theme-color)
 }
 
+header .definition .details .info_details .self_det a {
+  text-decoration: none;
+  color: black;
+}
+
+header .definition .details .info_details .self_det a:hover {
+  color: rgb(153, 153, 153);
+  transition: color ease .4s;
+}
 
 header .definition .details .info_details .self_det .keyword {
   font-weight: bold;
@@ -164,12 +163,13 @@ header .definition .details .social_details {
   color: #FFF;
 } 
 
-header .definition .details .social_details span {
+header .definition .details .social_details a {
   width: calc(100% / 6);
   position: relative;
+  color: #FFF;
 }
 
-header .definition .details .social_details span i {
+header .definition .details .social_details a i {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -177,13 +177,6 @@ header .definition .details .social_details span i {
 }
 
 /* skills widget */
-
-.head {
-  text-align: center;
-  padding: 25px 0 20px;
-  font-weight: bold;
-  color: var(--theme-color);
-}
 
 .skills .skills-det {
   background-color: #FFF;
