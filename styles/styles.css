@@ -27,6 +27,7 @@ h1 {
 
 p {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 a {
@@ -146,10 +147,6 @@ header .definition .details .info_details .self_info span.name {
 }
 
 
-header .definition .details .info_details .self_det {
-
-}
-
 header .definition .details .info_details .self_det .keyword {
   font-weight: bold;
   padding-right: 20px;
@@ -180,11 +177,8 @@ header .definition .details .social_details span i {
 }
 
 /* skills widget */
-.skills {
-  margin-bottom: 200px;
-}
 
-.skills .skills-head{
+.head {
   text-align: center;
   padding: 25px 0 20px;
   font-weight: bold;
@@ -194,7 +188,7 @@ header .definition .details .social_details span i {
 .skills .skills-det {
   background-color: #FFF;
   display: flex;
-  padding: 30px;
+  padding: 35px;
 }
 
 .skills .skills-det > div {
@@ -244,4 +238,37 @@ header .definition .details .social_details span i {
 }
 .skills .progresses .soft_skills .progress .prog-rate {
   width: 80% !important;
+}
+
+/* experience widget */
+
+.exper .exper_det {
+  background-color: #FFF;
+  padding: 35px;
+  margin-bottom: 30px;
+}
+
+.exper .exper_det ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items:baseline;
+  flex-wrap: wrap;
+}
+
+.exper .exper_det ul li {
+  display: flex;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.exper .exper_det ul li:nth-child(odd) {
+  padding-right: 20px;
+}
+
+.exper .exper_det ul li i {
+  margin:3px 10px 0 0;
+  font-size: 12px;
+  color: var(--theme-color);
 }
