@@ -7,7 +7,7 @@
 }
 
 html {
-  font-family: 'Radio Canada', sans-serif;;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -179,3 +179,69 @@ header .definition .details .social_details span i {
   transform: translate(-50%, -50%);
 }
 
+/* skills widget */
+.skills {
+  margin-bottom: 200px;
+}
+
+.skills .skills-head{
+  text-align: center;
+  padding: 25px 0 20px;
+  font-weight: bold;
+  color: var(--theme-color);
+}
+
+.skills .skills-det {
+  background-color: #FFF;
+  display: flex;
+  padding: 30px;
+}
+
+.skills .skills-det > div {
+  width: 50%;
+}
+
+.skills .skills-det .discussion p {
+  margin: 0;
+  line-height: 1.6;
+  margin-right: 6%;
+}
+
+.skills .skills-det .discussion p.tech-field {
+  margin-bottom: 15px;
+} 
+
+.skills .skills-det .progresses > div .def {
+  position: relative;
+  font-size: 20px;
+}
+
+.skills .skills-det .progresses > div .def .percentage{
+  position: absolute;
+  right: 0;
+}
+
+.skills .skills-det .progresses > div .progress {
+  height: 4px;
+  background-color: #e7e7e7;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px 0 20px;
+  font-weight: 900;
+}
+
+.skills .skills-det .progresses > div .progress .prog-rate {
+  background-color: var(--theme-color);
+  height: 100%;
+  width: 90%;
+}
+
+.skills .progresses .back-end .progress .prog-rate {
+  width: 50% !important;
+}
+.skills .progresses .UI_UX .progress .prog-rate {
+  width: 60% !important;
+}
+.skills .progresses .soft_skills .progress .prog-rate {
+  width: 80% !important;
+}
